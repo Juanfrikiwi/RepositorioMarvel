@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MarvelCharacters</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="home_fragment_label">Marvel Home</string>
+    <string name="detail_fragment_label">Detail Character</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="name_detail">Nombre</string>
+    <string name="message_loading">Cargando datos del servidor.</string>
+    <string name="message_error_connection">Ha ocurrido un error!</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="detail_image_content_description">Imagen del personaje</string>
+    <string name="marvel">Marvel</string>
+    <string name="home">Inicio</string>
+    <string name="favorites">Favoritos</string>
+    <string name="character_added">Personaje añadido a favoritos</string>
+    <string name="error_ocurred">Ha ocurrido un error</string>
+    <string name="favorite_character_deleted">Personaje favorito eliminado</string>
+    <string name="empty_list">No hay personajes en la lista de favoritos</string>
+    <string name="add_to_favs">Añadir a favoritos</string>
+    <string name="character_without_description">"Este personaje no contiene ninguna descripción.</string>
+    <string name="updated_on">Actualizado el:</string>
+    <string name="http_string">http</string>
+    <string name="https_string">https</string>
+    <string name="comics"><u>Comics</u></string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="check_delete">¿Desea borrarlo de favoritos?</string>
+    <string name="warning">¡Atención!</string>
+    <string name="delete">Borrar</string>
+    <string name="character_image">Imagen del personaje</string>
+    <string name="without_result">No hay resultados en la búsqueda</string>
+    <string name="search_characters">Buscar personajes</string>
+    <string name="search_to_google">https://www.google.com/search?q=</string>
+
+
+    "Este personaje no contiene ninguna descripción"
+</resources>

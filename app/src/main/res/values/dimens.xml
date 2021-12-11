@@ -1,0 +1,46 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Per Material Design specs: -->
+    <!-- https://material.io/design/components/buttons-floating-action-button.html#specs -->
+
+    <!-- Padding on the bottom of a screen so that the FAB won't overlap scrolled text. -->
+    <dimen name="fab_bottom_padding">72dp</dimen>
+
+    <dimen name="detail_app_bar_height">450dp</dimen>
+    <dimen name="margin_xxl">92dp</dimen>
+    <dimen name="margin_big">32dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_extra_small">4dp</dimen>
+
+    <dimen name="font_xxl">48sp</dimen>
+    <dimen name="font_xl">32sp</dimen>
+    <dimen name="font_l">20sp</dimen>
+    <dimen name="font_s">16sp</dimen>
+    <dimen name="font_xs">8sp</dimen>
+    <dimen name="font_xxs">4sp</dimen>
+
+    <dimen name="item_image_height">150dp</dimen>
+
+    <dimen name="item_text_height">24dp</dimen>
+
+    <dimen name="progressbar_size">50dp</dimen>
+
+
+    <dimen name="card_side_margin">12dp</dimen>
+    <dimen name="card_bottom_margin">26dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+
+    <dimen name="toolbar_elevation">5dp</dimen>
+
+    <!-- List Header margin -->
+    <dimen name="header_margin">24dp</dimen>
+
+    <dimen name="gallery_header_margin">72dp</dimen>
+
+    <!-- minimum height of detail page so that the collapsing toolbar can be shown on every page -->
+    <dimen name="description_min_height">555dp</dimen>
+    <dimen name="comics_height">600dp</dimen>
+
+</resources>

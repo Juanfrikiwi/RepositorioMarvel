@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeViewPagerFragment">
+
+    <fragment
+        android:id="@+id/HomeViewPagerFragment"
+        android:name="com.example.marvelcharacters.ui.viewpager.HomeViewPagerFragment"
+        tools:layout="@layout/fragment_view_pager">
+
+        <action
+            android:id="@+id/action_view_pager_fragment_to_detail_fragment"
+            app:destination="@id/DetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_view_pager_fragment_to_detail_favorites_fragment"
+            app:destination="@id/DetailFavoritesFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.marvelcharacters.ui.home.HomeFragment"
+        android:label="@string/home_fragment_label"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/DetailFragment"
+        android:name="com.example.marvelcharacters.ui.detail.DetailFragment"
+        android:label="@string/detail_fragment_label"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="characterId"
+            app:argType="integer"/>
+        <action
+            android:id="@+id/action_DetailFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DetailFavoritesFragment"
+        android:name="com.example.marvelcharacters.ui.detail.DetailFavoritesFragment"
+        android:label="@string/favorites"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="characterId"
+            app:argType="integer"/>
+    </fragment>
+</navigation>

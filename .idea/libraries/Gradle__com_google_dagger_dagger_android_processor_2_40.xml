@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.dagger:dagger-android-processor:2.40">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-android-processor/2.40/505745561933083f84f51148997bed535a7a2bec/dagger-android-processor-2.40.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-android-processor/2.40/9587b303819c78fdf892432a19dfa4a4a22a26a6/dagger-android-processor-2.40-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-android-processor/2.40/555e16e0090400f8601af6742d5b453ca1f91820/dagger-android-processor-2.40-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
